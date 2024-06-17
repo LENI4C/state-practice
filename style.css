@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clicky {
+    background-color: hotpink;
+    width: fit-content;
+    padding: 1em;   
+}
+
+.square-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .3em;
+}
+
+.square {
+    border: 1.5px solid beige;
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    border-radius: .2em;
+}
